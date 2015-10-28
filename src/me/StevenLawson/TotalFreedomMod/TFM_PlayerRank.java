@@ -19,6 +19,7 @@ public enum TFM_PlayerRank
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "(Owner)"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     RUBY("the " + ChatColor.DARK_PURPLE + "Chief-Developer!", ChatColor.DARK_PURPLE "(Chief-Dev)");
+    CHEIFDEV("the " + ChatColor.DARK_PURPLE + "Chief-Developer!", ChatColor.DARK_PURPLE "(Chief-Dev)");
     SERVERHOST("the " + ChatColor.LIGHT_BLUE + "Server Host!", ChatColor.GREEN "(Server-Host)")
     private final String loginMessage;
     private final String prefix;
@@ -73,9 +74,9 @@ public enum TFM_PlayerRank
             return DEVELOPER;
         }
         
-        else if (sender.getName().equals("reuben4545"))
+        else if (sender.getName().equals("FaZePamaaj"))
         {
-            return RUBY;
+            return CHEIFDEV;
         }
         
         if (TFM_Util.ALONN.contains(sender.getName()))
