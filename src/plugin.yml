@@ -1,7 +1,7 @@
-name: WorldOfFreedomMod
+name: PcDudFreedomMod
 main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
 version: 0.1
-description: Plugin for the World Of Freedom server.
+description: Plugin for the PcDudFreedom server.
 softdepend: [BukkitTelnet, WorldEdit, Essentials]
 authors: [Madgeek1450, Prozza, reuben4545]
 
